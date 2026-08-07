@@ -1,0 +1,16 @@
+# Environment variables containing secret API keys
+.env
+.env.local
+
+# Python virtual environment and cache
+venv/
+env/
+_pycache_/
+*.pyc
+
+# Node modules (if using a JavaScript frontend)
+node_modules/
+
+# IDE or OS files
+.vscode/
+.DS_Store

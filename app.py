@@ -247,7 +247,7 @@ HEALTHCARE DOCUMENTS:
         with st.spinner("Generating healthcare response..."):
             api_key = os.getenv("GROQ_API_KEY")
             llm = ChatGroq(
-                model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
+                model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b"),
                 groq_api_key=api_key,
                 temperature=0.2
             )

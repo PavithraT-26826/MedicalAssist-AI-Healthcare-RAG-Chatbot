@@ -54,11 +54,11 @@ with st.sidebar:
 
     # Embedding model selection
     st.subheader("📐 Embeddings Provider")
-    embedding_provider = st.radio("Choose embedding model:", ["OpenAI", "HuggingFace (Free)"])
+    embedding_provider = st.radio("Choose embedding model:", ["HuggingFace (Free)","OpenAI"])
 
     # LLM model selection
     st.subheader("🤖 LLM Provider")
-    llm_provider = st.radio("Choose LLM model:", ["OpenAI", "Groq (Free & Fast)"])
+    llm_provider = st.radio("Choose LLM model:", ["Groq (Free & Fast)","OpenAI"])
 
     # Chunk parameters
     st.subheader("✂️ Chunking Parameters")
